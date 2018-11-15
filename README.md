@@ -1,6 +1,6 @@
 ## BoxSelection
 
-该工具需要实例化才能使用,遵循ES6语法，建议在webpack下进行使用
+该工具需要实例化才能使用,遵循ES6语法，建议在webpack下进行使用,import导入开发环境中
 
 ### API
 
