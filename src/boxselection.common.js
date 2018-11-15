@@ -14,7 +14,7 @@
         throw new Error('constructor is not certain!!');
       }
       this.cube.style.backgroundColor = cube ? cube.backgroundColor : 'rgba(65,105,225,.2)';
-      this.cube.style.position = 'absolute';
+      this.cube.style.position = 'fixed';
       this.cube.style.display = 'none';
       this.cubeContent = [];                //get prepare cubeContent
       this.cube.style.border = cube ? cube.border : '1px dashed #1967D2';
@@ -58,7 +58,6 @@
   BoxSelect.prototype.onselect = function(callback) {         //select event
 
     this.Trigger.onmouseup = e => {
-      console.log('我进来了啊');
       this.cube.style.display = 'none';
       this.flag = false;
       if(Math.abs(e.clientX - this.originX) < 8){      //Avoid short Click Event

@@ -100,7 +100,6 @@ BoxSelect.prototype.onselect = function(callback) {         //select event
 
       this.cubeContent.push(this._content[key]);
     }else{
-
     Outer:
       for(let i = box_x1;i <= box_x2;i++){
         if(i == cube_x1){
