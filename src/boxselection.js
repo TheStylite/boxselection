@@ -120,4 +120,5 @@ BoxSelect.prototype.onselect = function(callback) {         //select event
   };
 }
 
+
 export default BoxSelect;
